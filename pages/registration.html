@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="ÚTF-8" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form 
+      action="https://fom.in.ua/echo"
+      method="get"
+    >
+    <h1>Реєстрація</h1>
+      <fieldset>
+        <legend>Введіть дані:</legend>
+        <div class="block">
+          <label for="email">Email*:</label>
+          <input 
+            type="email"
+            name="email"
+            id="email"
+            required
+          />
+        </div>
+        <br />
+        <div class="block">
+          <label for="password">Пароль*:</label>
+          <input 
+            type="password"
+            name="password"
+            id="password"
+            required
+          />
+        </div>
+        <br />
+        <div class="block">
+          <label for="confirm_password">Підтвердіть пароль*:</label>
+          <input 
+            type="password"
+            name="password"
+            id="password"
+            required
+          />
+      </fieldset>
+      <br />
+      <button type="reset">Reset</button>
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
